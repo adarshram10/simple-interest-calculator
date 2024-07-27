@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.App-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 700px;
+}
+.container{
+  background-color: aliceblue;
+  width: 500px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.heading_text{
+
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.para{
+  margin-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.total_amount_card{
+  width: 400px;
+  height: 150px;
+  background-color: rgba(188, 217, 71, 0.812);
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.total_amount_symbol{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 750;
 }
-
-.App-link {
-  color: #61dafb;
+.parat{
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#outlined-basic{
+  width: 370px;
+}
+.input>*{
+  margin: 10px 0 ;
+ 
+}
+.btn-grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  width: 250px;
+  height: 50px;
 }
